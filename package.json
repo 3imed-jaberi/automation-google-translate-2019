@@ -1,0 +1,35 @@
+{
+  "name": "automation-google-translate-2019",
+  "version": "1.0.0",
+  "description": " this project is a full automation google translate version 2019 using selenium web driver .. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape":"cd .\\src\\Tasks\\ && node ScrapeAllGoogleLanguage.js",
+    "translate":"cd .\\src\\Tasks\\ && node Translate.js",
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3imed-jaberi/automation-google-translate-2019.git"
+  },
+  "keywords": [
+    "web-driver",
+    "selenium",
+    "chrome",
+    "automation",
+    "google",
+    "google-translate-2019"
+  ],
+  "author": "imed jaberi",
+  "license": "APACHE 2.0",
+  "bugs": {
+    "url": "https://github.com/3imed-jaberi/automation-google-translate-2019/issues"
+  },
+  "homepage": "https://github.com/3imed-jaberi/automation-google-translate-2019#readme",
+  "dependencies": {
+    "chromedriver": "^2.43.4",
+    "csv-parse": "^4.4.1",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
